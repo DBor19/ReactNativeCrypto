@@ -42,7 +42,7 @@ export default function App() {
         animationType='fade'
         visible={visivel}
         transparent={true}
-        onRequestClose={() => setVisivel(false)} // Adicionado para tratar o fechamento do modal com o botão de voltar do dispositivo
+        onRequestClose={() => setVisivel(false)}
       >
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>
