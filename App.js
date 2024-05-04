@@ -88,6 +88,6 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     padding: 20,
     alignItems: 'center',
-    elevation: 5, // Elevação para sombra (Android)
+    elevation: 5, 
   },
 });
